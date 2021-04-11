@@ -22,4 +22,19 @@ const prom = new Promise((resolve, reject) => {
         
     })
 
-//второй вариант использовать замыкания скорее всего
+//
+
+
+async function f() {
+const arr = [10, 12, 15, 21];
+  let promise = new Promise((resolve, reject) => {
+    for (var i = 0; i < arr.length; i++) 
+    setTimeout(() => resolve(console.log(arr[i] > 13 ? `Good: ${arr[i]}` : `Bad: ${arr[i]}`)), 3000)
+  });
+
+  let result = await promise; 
+
+  console.log(result); 
+}
+
+f();
