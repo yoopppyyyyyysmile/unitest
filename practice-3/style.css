@@ -1,0 +1,14 @@
+.table {
+    font-size: 18px;
+}
+
+.table-striped {
+    border: 1px solid #fff;
+}
+
+.bg-info {
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(28, 87, 87, 0.575);
+    padding: 10px 20px;
+}
