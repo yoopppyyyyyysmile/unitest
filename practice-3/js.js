@@ -1,11 +1,3 @@
-/*async function getResponse() {
-    let response = await fetch('https://jsonplaceholder.typicode.com/posts')
-    let content = await response.json()
-    console.log(content)
-}
-
-getResponse()*/
-
 let table = document.querySelector('table');
     let requestURL = 'https://jsonplaceholder.typicode.com/posts';
     let request = new XMLHttpRequest();
